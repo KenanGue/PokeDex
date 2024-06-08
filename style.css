@@ -1,0 +1,118 @@
+.body {
+    margin: 0;
+    height: 100vh;
+    background-color: green;
+}
+
+.nav-bar {
+    height: 100px;
+    background-color: rgb(18, 87, 56);
+}
+
+.header-brand {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.poke-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.poke-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px; 
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.type-normal{
+    background-color: burlywood;
+}
+
+.type-grass {
+    background-color: green;
+}
+
+.type-fire {
+    background-color: red;
+}
+
+.type-water {
+    background-color: blue;
+}
+
+.type-electric{
+    background-color: yellow;
+}
+
+.type-ice {
+    background-color: lightblue;
+}
+
+.type-fighting {
+    background-color: rgb(82, 10, 10);
+}
+
+.type-poison {
+    background-color: purple;
+}
+
+.type-ground {
+    background-color: brown;
+}
+
+.type-flying {
+    background-color: gray;
+}
+
+.type-psychic {
+    background-color: lightpink;
+}
+
+.type-bug {
+    background-color: lightgreen;
+}
+
+.type-rock {
+    background-color: darkgray;
+}
+
+.type-ghost {
+    background-color: darkmagenta;
+}
+
+.type-dragon {
+    background-color: darkblue;
+}
+
+.type-dark {
+    background-color: rgb(23, 23, 23);
+}
+
+.type-steel {
+    background-color: silver;
+}
+
+.type-fairy {
+    background-color: pink;
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(18, 87, 56);
+    position: fixed;
+    bottom: 0;
+}
