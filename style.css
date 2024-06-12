@@ -7,6 +7,11 @@
 .nav-bar {
     height: 100px;
     background-color: rgb(18, 87, 56);
+
+}
+
+.header-margin {
+    margin-bottom: 40px;
 }
 
 .header-brand {
@@ -23,96 +28,125 @@
     gap: 10px;
 }
 
+.poke-image{
+    height: 100px;
+}
+
+.poke-image:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.type-border{
+    background-color: rgba(74, 70, 70, 0.293);
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    margin-right: 4px;
+    margin-top: 16px;
+}
+
+.type-position{
+    display: flex;
+}
+
 .poke-item {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 10px;
     border: 1px solid #000000;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 150px; 
+    width: 150px;
     height: 200px;
     box-sizing: border-box;
 }
 
-.type-normal{
-    background-color: burlywood;
+.type-normal {
+    background-color: rgb(168,168,153);
 }
 
 .type-grass {
-    background-color: green;
+    background-color:rgb(88,169,81);
 }
 
 .type-fire {
-    background-color: red;
+    background-color: rgb(229,59,25);
 }
 
 .type-water {
-    background-color: blue;
+    background-color: rgb(39,139,204);
 }
 
-.type-electric{
-    background-color: yellow;
+.type-electric {
+    background-color: rgb(229,198,0);
 }
 
 .type-ice {
-    background-color: lightblue;
+    background-color: rgb(104,186,172);
 }
 
 .type-fighting {
-    background-color: rgb(82, 10, 10);
+    background-color: rgb(168,76,61);
 }
 
 .type-poison {
-    background-color: purple;
+    background-color: rgb(134,74,184);
 }
 
 .type-ground {
-    background-color: brown;
+    background-color: rgb(149,104,51);
 }
 
 .type-flying {
-    background-color: gray;
+    background-color: rgb(135,181,229);
 }
 
 .type-psychic {
-    background-color: lightpink;
+    background-color: rgb(229,89,115);
 }
 
 .type-bug {
-    background-color: lightgreen;
+    background-color:rgb(131,173,37);
 }
 
 .type-rock {
-    background-color: darkgray;
+    background-color: rgb(168,153,91);
 }
 
 .type-ghost {
-    background-color: darkmagenta;
+    background-color: rgb(99,60,100);
 }
 
 .type-dragon {
-    background-color: darkblue;
+    background-color: rgb(77,100,171);
 }
 
 .type-dark {
-    background-color: rgb(23, 23, 23);
+    background-color:rgb(70,62,62);
 }
 
 .type-steel {
-    background-color: silver;
+    background-color: rgb(153,153,168);
 }
 
 .type-fairy {
-    background-color: pink;
+    background-color: rgb(212,128,207);
 }
 
-.footer{
+.footer {
     height: 80px;
     width: 100%;
     background-color: rgb(18, 87, 56);
-    position: fixed;
-    bottom: 0;
+    margin-top: 40px;
+}
+
+.btn-position {
+    display: flex;
+    justify-content: center;
 }
